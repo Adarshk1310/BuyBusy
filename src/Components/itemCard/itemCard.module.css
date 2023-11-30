@@ -1,0 +1,103 @@
+.itemCardMain{
+    height: 360px;
+    width: 16%;
+    /* margin:0px 0px 0px 5px; */
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    background-color: white;
+    /* border-radius: 5px; */
+    /* border: 2px solid black; */
+}
+.itemImage{
+    /* border-radius: 10px 10px 0px 0px; */
+    width: 90%;
+    height: 55%;
+    margin: 5%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    /* border: 2px solid black; */
+}
+
+.itemImage img{
+    /* border-radius: 10px 10px 0px 0px; */
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+    }
+.itemImage img:hover{
+        cursor: pointer;
+       
+    }
+
+.itemInfo{
+    /* height: 30%; */
+   margin: 10% 0% 0% 5%;
+    font-size: 90%;
+    font-family: "Gill Sans", sans-serif;
+    
+}
+.itemInfo p{margin: 0px;
+padding: 0px;}
+.itemPrice{
+   margin-top: 5%;
+   margin-left: 8%;
+   font-weight: 500;
+   color: rgb(71, 74, 109);
+   font-size: medium;
+   
+}
+.addToCart{
+    width: 45%;
+    margin-top: 20px;
+   margin-bottom: 5px;
+   margin-right: 5%;
+   
+}
+.addToCart button{
+    background-color: #7064e5;
+    padding: 4px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+    outline: none;
+    font-size:70%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+   
+
+    
+}
+.addToCart button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.lowerInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 6%;
+    
+}
+
+.addedButton{
+    background-color: #52ca4e;
+    padding: 4px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+    outline: none;
+    font-size:70%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}

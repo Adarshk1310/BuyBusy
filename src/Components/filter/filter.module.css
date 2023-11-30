@@ -1,0 +1,46 @@
+.filterMain{
+    position: absolute;
+    padding-top: 20px;
+    top:5px;
+    left: -18%;
+    /* background-color: rgb(255, 255, 255); */
+    
+    height:100%;
+    border-right: 0.5px solid lightgray;
+    width: 14.5%;
+}
+.filterRange{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.filterRange h2{
+    font-size: large;
+}
+.filterRange p{
+    margin: 2px;
+    color: black;
+}
+.filterRange input{
+    width: 70%;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.category h2{
+    /* text-align: center; */
+    font-size: large;
+    margin-left: 25px;
+}
+.category input{
+    margin-left: 25px;
+    width: 12px;
+    height: 12px;
+}
+span{
+    font-size: small;
+}
